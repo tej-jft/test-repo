@@ -1,0 +1,124 @@
+body,html{
+	height: 100%;
+	margin: 0px;
+	scroll-behavior: none;
+}
+.top-head{
+	font-family: georgia;
+	color: rgb(255,255,255);
+	font-size: 16px;
+	margin: 0px;
+	z-index: 2;
+	text-align: left;
+	background-color: rgba(1,115,178,1);
+	z-index: 3;
+	display: flex;
+	flex: block;
+}
+.header-text+.header-logo{
+	
+}
+.top-head p{
+	font-size: 16px;
+}
+.header-text{
+}
+.top-menu-items{
+	text-align: right;
+	font-weight: bold;
+	list-style-type: none;
+	text-decoration: none;
+	top: 20px;
+	right:10px;
+	margin-right: 0px;
+	font-weight: normal;
+	padding: 12px;
+
+}
+.top-menu-items li{
+	display: inline-block;
+	padding: 12px;
+}
+.top-menu-items ul{
+}
+.top-menu-items a{
+ text-decoration-style: none;
+ color: rgb(255,255,255);
+}
+#emo{
+	z-index: 2;
+	text-decoration:none;
+	text-decoration-line: none;
+}
+.top-menu-items a:hover{
+	background-color: rgb(255,255,255);
+	color: rgb(1,115,178);
+	border-radius:25px;
+	padding: 12px;
+}
+
+.content {
+  padding: : 0px;
+  background-color: white;
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-width:contain;
+}
+
+.content-mask{
+	background-color: rgba(204,205,178,0.5);
+}
+
+/* The sticky class is added to the header with JS when it reaches its scroll
+position */ .sticky { position: fixed; top: 0; width: 100%;
+  
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  /*padding-top: 102px;*/
+}
+
+
+.vid-intro{
+	position: relative;
+	left: 0px;
+	width: 60%;
+	border: 2px solid black;
+}
+.into-content{
+	width: 40%;
+	border: 2px solid black;
+}
+.play{
+	z-index: 2;
+	align-content: right;
+	height: 60px;
+	width:60px;
+	border-radius: 48px;
+	align-content: center;
+	background-image: url("../res/images/play.jpg");
+}
+
+.wider{
+	width: 80%;
+	background-color: #eee;
+	justify-content: center;
+	display:flex;
+	margin: 0 auto;
+	text-align:justify;
+}
+.layout-row{
+	margin: 30px auto; width: 80%;	
+	background-color:rgb(255,251,255);
+	padding: 40px;
+	box-shadow: 2px 2px 2px 2px grey; 
+
+}
