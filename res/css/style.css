@@ -2,6 +2,8 @@ body,html{
 	height: 100%;
 	margin: 0px;
 	scroll-behavior: none;
+ 
+
 }
 .top-head{
 	font-family: georgia;
@@ -53,23 +55,22 @@ body,html{
 .top-menu-items a:hover{
 	background-color: rgb(255,255,255);
 	color: rgb(1,115,178);
-	border-radius:25px;
+	border-radius:25px;box-shadow: 2px 2px grey;
 	padding: 12px;
 }
 
 .content {
-  padding: : 0px;
+  padding: 0px;
   background-color: white;
 
   /* Full height */
   height: 100%; 
-
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-width:contain;
+  
 }
 
 .content-mask{
@@ -116,9 +117,77 @@ position */ .sticky { position: fixed; top: 0; width: 100%;
 	text-align:justify;
 }
 .layout-row{
-	margin: 30px auto; width: 80%;	
+	margin: 20px auto; width: 80%;	
 	background-color:rgb(255,251,255);
-	padding: 40px;
-	box-shadow: 2px 2px 2px 2px grey; 
+	padding: 40px; 
+}
 
+.rightcol{
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px grey;
+}
+.leftcol	{
+	margin: 10px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px grey;
+}
+
+.customrow{
+	justify-content: center;
+	display: flexbox;	
+}
+
+footer{
+	margin-bottom: 30px;
+	height: 80px;
+}
+p{
+	margin: 10px;
+}
+.fab{
+	color: rgb(1,115,178);
+}
+.icorow{
+	background-color:rgb(254, 255, 244);
+	border:2px outset rgba(169, 172, 173, 0.171);
+}
+
+.icorown{
+	background-color:rgb(255, 255, 254);
+}
+.compr{
+	display: flexbox;
+	justify-content: center;
+}
+.compy{
+	border:2px solid gray;
+	margin: 10px;
+	text-align: center;
+	color: grey;
+	height: 40px;
+	padding: 5px 20px;
+}
+section{
+	margin:90px 0 ;
+
+}
+
+.round-button{
+	border-radius: 25px;
+	border: 0px inset rgb(1, 115, 178) ;
+	background-color:  rgb(1,115,178);
+	color: rgb(255,251,255);
+	width: 160px;
+	height: 45px;
+}
+.stories{
+	border: 1px solid rgba(97, 91, 91, 0.493);
+	justify-content: left;
+	padding: 5px 0;
+}
+.review{
+	padding: 15px 0;
 }
